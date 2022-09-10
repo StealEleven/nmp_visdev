@@ -73,7 +73,7 @@ function preloader_cb(percentage) {
     percantage_num.innerHTML = percentage + "%";	   
     if (percentage == 100) {
         var preloader_cont = document.getElementById("preloader_cont");
-	preloader_cont.style.visibility = "hidden";
+	    preloader_cont.style.visibility = "hidden";
         return;
 	}	
 }
