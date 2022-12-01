@@ -16,6 +16,11 @@ var DEBUG = (m_ver.type() == "DEBUG");
 // automatically detect assets path
 var APP_ASSETS_PATH = m_cfg.get_assets_path("nmp_visdev");
 
+//test
+//m_cfg.apply_quality("P_ULTRA");
+m_cfg.set("quality", m_cfg.P_ULTRA);
+
+
 /**
  * export the method to initialize the app (called at the bottom of this file)
  */
@@ -25,7 +30,8 @@ exports.init = function() {
         callback: init_cb,
         show_fps: DEBUG,
         console_verbose: DEBUG,
-        autoresize: true
+        autoresize: true,
+		canvas_resolution_factor: 2
     });
 }
 
