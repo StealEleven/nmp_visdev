@@ -33,18 +33,18 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 410px;
-    height: 110px;
-    margin-left: -205px;
-    margin-top: -55px;
-	background-image: url(assets/pl_stat_22.png);
+    width: 350px;
+    height: 72px;
+    margin-left: -175px;
+    margin-top: -36px;
+	background-image: url(assets/pl_inhome_stat.png);
 }
 
 #preload_dynamic_container {
     position: absolute;
-    top: 4px;
     width: 100%;
-    height: 98px;
+    height: 72px;
+    top: 0px;
 }
 
 #preload_dynamic_path {
@@ -52,12 +52,12 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    background-image: url(assets/pl_dyn_22.png);
+    background-image: url(assets/pl_inhome_dyn.png);
 }
 #percent_text {
     position:absolute;
-    top: 43%;
-    left: 13%;
+    top: 75%;
+    left: 2%;
     text-align: center;
     font-size: 12px;
     color: #ffffff;
