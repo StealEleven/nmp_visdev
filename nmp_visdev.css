@@ -54,6 +54,7 @@ body {
     height: 100%;
     background-image: url(assets/pl_inhome_dyn.png);
 }
+
 #percent_text {
     position:absolute;
     top: 75%;
