@@ -33,17 +33,18 @@ body {
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 144px;
-    height: 34px;
-    margin-left: -72px;
-    margin-top: -17px;
-	background-image: url(assets/pl_tesoro_light_stat.png);
+    width: 244px;
+    height: 50px;
+    margin-left: -122px;
+    margin-top: -25px;
+	background-image: url(assets/pl_inhome_stat.png);
 }
+
 #preload_dynamic_container {
     position: absolute;
-    left: 0px;
     width: 100%;
-    height: 144px;
+    height: 50px;
+    top: 0px;
 }
 
 #preload_dynamic_path {
@@ -51,14 +52,15 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    background-image: url(assets/pl_tesoro_light_dyn.png);
+    background-image: url(assets/pl_inhome_dyn.png);
 }
+
 #percent_text {
     position:absolute;
-    top: 78%;
-    left: 26%;
+    top: 73%;
+    left: 2%;
     text-align: center;
-    font-size: 14px;
+    font-size: 10px;
     color: #ffffff;
     font-family: arial;
 }
